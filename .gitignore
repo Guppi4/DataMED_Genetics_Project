@@ -1,0 +1,32 @@
+# Python scripts for document generation (not project code)
+create_pipeline_doc.py
+create_pipeline_doc_v2.py
+
+# Lina's private documents
+VARCHEK DataMed lab05022026.docx
+Table for KIRIL25.3.26.docx
+important_conversation.docx
+site and tool list.docx
+Variant recheck tool.docx
+
+# ACMG test cases (private clinical data)
+new ACMG classification/
+
+# PDFs
+*.pdf
+
+# Word temp files
+~$*.docx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
