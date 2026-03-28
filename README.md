@@ -65,18 +65,17 @@ Stage 4: Clinical Output     → structured dossier + clinician-friendly report
 
 ```
 DataMED_Genetics_Project/
-├── varchek/
-│   ├── src/
-│   │   ├── normalization/      # VariantValidator + Ensembl Variant Recoder
-│   │   ├── evidence/           # API connectors (gnomAD, ClinVar, ClinGen, VEP...)
-│   │   ├── literature/         # LitVar2 + PubMed + LLM extraction
-│   │   ├── rules/              # ACMG/AMP classification engine
-│   │   └── output/             # Report generation
-│   ├── tests/
-│   │   ├── variant_cdh1.py     # Validation: CDH1 c.1008G>T
-│   │   └── variant_ush2a.py    # Validation: USH2A c.4338_4339del
-│   └── docs/
-│       └── pipeline_draft_v0.2.docx
+├── src/
+│   ├── normalization/      # VariantValidator + Ensembl Variant Recoder
+│   ├── evidence/           # API connectors (gnomAD, ClinVar, ClinGen, VEP...)
+│   ├── literature/         # LitVar2 + PubMed + LLM extraction
+│   ├── rules/              # ACMG/AMP classification engine
+│   └── output/             # Report generation
+├── tests/
+│   ├── variant_cdh1.py     # Validation: CDH1 c.1008G>T
+│   └── variant_ush2a.py    # Validation: USH2A c.4338_4339del
+├── docs/
+│   └── pipeline_draft_v0.2.docx
 ├── CLAUDE.md
 └── README.md
 ```
