@@ -64,18 +64,19 @@ Stage 4: Clinical Output     → structured dossier + clinician-friendly report
 ## Project Structure
 
 ```
-varchek/
-├── src/
-│   ├── normalization/      # VariantValidator + Ensembl Variant Recoder
-│   ├── evidence/           # API connectors (gnomAD, ClinVar, ClinGen, VEP...)
-│   ├── literature/         # LitVar2 + PubMed + LLM extraction
-│   ├── rules/              # ACMG/AMP classification engine
-│   └── output/             # Report generation
-├── tests/
-│   ├── variant_cdh1.py     # Validation: CDH1 c.1008G>T
-│   └── variant_ush2a.py    # Validation: USH2A c.4338_4339del
-├── docs/
-│   └── pipeline_draft.docx
+DataMED_Genetics_Project/
+├── varchek/
+│   ├── src/
+│   │   ├── normalization/      # VariantValidator + Ensembl Variant Recoder
+│   │   ├── evidence/           # API connectors (gnomAD, ClinVar, ClinGen, VEP...)
+│   │   ├── literature/         # LitVar2 + PubMed + LLM extraction
+│   │   ├── rules/              # ACMG/AMP classification engine
+│   │   └── output/             # Report generation
+│   ├── tests/
+│   │   ├── variant_cdh1.py     # Validation: CDH1 c.1008G>T
+│   │   └── variant_ush2a.py    # Validation: USH2A c.4338_4339del
+│   └── docs/
+│       └── pipeline_draft_v0.2.docx
 ├── CLAUDE.md
 └── README.md
 ```
@@ -97,6 +98,4 @@ varchek/
 
 ## Team
 
-- **Prof. Mor Saban** — Head, DataMED Lab, Tel Aviv University
-- **Prof. Lina Basel-Salmon** — Director, Raphael Recanati Genetics Institute, Maccabi
-- **Kirill Perevalov** — Developer, DataMED Lab intern
+DataMED Lab, Tel Aviv University × Maccabi Healthcare Services
